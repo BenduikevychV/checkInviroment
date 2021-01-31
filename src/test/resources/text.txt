@@ -1,0 +1,98 @@
+
+
+           -------------------Tell me about yourself -----------------
+   I have expirience in the various domains such as Healthcare,E-comerce, Insurance
+   I do manual and automation testing.
+   I started my career like a manual tester.while I improved my technical skills
+     I learned Java programing language and automation tools, for ex:Selenium WebDriver for
+     UI automation, RestAssured for API, for validate Database JDBC connection.
+   Using these tools I build my framework from scratch. I'm using ' Page  Object Model in my framework ,there
+   every page element go to one class and it makes easy to maintenance and to keep my code
+   organized and clean and reusable
+   I'm also using Pojo class for API testing, there I'm storing my data ,I can sirealize desiralize.
+   And at the same time to be able to read Data from excel file I have Apache POI.
+   For acheave to continue integration I use Jenkins, I'm using Jira as a project menagment tool.'
+   I'm quick learner, detail oriented.'
+
+
+
+
+Three tile architecture (DB, API, UI)
+
+API to create the Client (POST) using Rest Assured Lib --> DB(JDBC)
+API to get client information (GET) << DB (JDBC) -->
+Validate api rosponse(REst-Assured) with DB(JDBC) + API response(Rest-Assured) with UI (Selenium)
+API to update existing client (PUT)
+API to delete the client (DELETE)
+
+
+I have read about the open position at your company with big interest.
+ As a skilled Full-Stack Automation Engineer with professional over 6 years’ experience,
+ I am confident of my ability to make a valuable contribution into achieving your organization objectives.
+
+challenges-> I have to understand structure API and sometime to get info I need to make a lot of POST and GET request.
+
+Static mathods can Not be overriden but can be overloaded.
+we can create static Class if it's INNER Class'
+So, Yes, you can declare a class static in Java, provided the class is inside a top-level class.
+ Such clauses are also known as nested classes and they can be declared static, but if you are thinking
+ to make a top-level class static in Java, then its not allowed.
+  If you do so, the compiler will complain saying "illegal modifier"
+  for the class, only public, abstract and final are permitted.
+
+
+                     ----------Tell me about your project?-------------
+         it's Manufacturing drugs company. I work with Northtech Solutions they have agreement with Abbott.'
+         It is Internal app. Purpose is to register patients for clinical trails
+          I can tell some basic: the app has 4 sections
+           1. Pation info - photo, name,city, age, location, phoneNumber, doctorName
+           2. Clinical History; Medical History; Details:
+           3. Drugs info: DrugName, Description, DoctorName, Ingradients
+           4. Interection: if our patients related with this drugs we have to see all intteraction with another drugs
+               Allergy info: if patient pregnancy we have to see what that drug can damage the baby!
+         -> Non-Disclosure Agreement
+
+
+                     --------- Tell me about your framework?------------
+       I created my framework from scratch.
+       In my framwork, I am using Java programing language with Selenium WebDriver for UI automation.
+       RestAssured for API, for validate Database JDBC connection.
+       I used Maven to manage and centralize my dependencies which I have in pom.xml file.
+       it's BDD framework I am using Cucumber with Gherkin language' in a feature file.
+       In my framework I have different Packages for ex: resources,utils,runners,stetDefinitions,Pojo,Pages.
+
+       Under resources Package I have All my feature files. In the feature file I am using Scenario Outline
+       with Exemple table,that table is a last line in my scenario,I'm using Scenario OUtline' for
+       run Scenario multiple times with different set of data, also I using dataTables,
+        it is runing DataTable object and I can
+       convert it to Map, List , List of Map, List of List.
+       In my Runner Package, I have all my runner classes,in Cucumber I have one plugin
+       which called ReRun plugin,using this plugin I can run only our failed scenarios, this plugin will
+       create one txt file to store feature file of our failed scenarios, using this txt file I can run
+       our failed scenario for that purpose I have ReRunner class !
+       Also I have another plugins for produce reports with information about our Scenario, for ex:
+       pretty, progress, html, json, junit.
+       Uder StepDefinitions package I have classes with all my implemented steps and here I have also Hooks class,inside
+       the Hooks class I have Before and After annotations, that annotations comes from Cucumber,
+       those annotations running before and after each scenario
+       @Before annotation -> I use for login to the page
+       @Aftere annotation -> I use it for take a screenshot if my scenario is failed.
+       My framework was structured base on the Page Object Model that every page element go to one class
+       and it makes easy to maintenance and to keep my code orginized and clear and reusable.
+       Also I have Pojo class for sirialize and desiralize data and in the same time I'm using' Lombok liberies
+       to set getter/setters/constructors using @Getter @Setter annotations.
+       Under Utils Package I have diferent classes with a lot of reusable methods for ex:
+         BrowserUtils,ConfigReader,Driver, ExcelUtils, JDBCUtils, PayloadUtil
+       I am using Jira as bug tracking tool.
+       for achieve continuous inttegration and scheduled my tests I using Jenkins.
+
+
+                  To use most classes, you have to create objects.
+         ----->>> An object is a runtime instance of a class in memory.
+         ---->>> TestNG - HTML and XML Reports
+
+
+         FunctionalInterface can have only one method (by default it is public abstract methot)
+
+
+    Rest-API -> representational state transfer Aplication Programing Interface.
