@@ -14,6 +14,7 @@ public class SwappingPracticeImprove {
         String expectedTwo = "hELLO 5LOL12";
 
         String actualThree = "2S 5 du41Rg57E";
+
         String expectedThree = "2s 5 DU51rG47e";
 
         SwappingPracticeImprove sw = new SwappingPracticeImprove();
